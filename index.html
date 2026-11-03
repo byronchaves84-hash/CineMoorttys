@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080b14"><meta name="description" content="CINEMAX — descubre películas y series para cada momento.">
+  <title>CINEMAX — Tu próxima historia comienza aquí</title>
+  <link rel="preconnect" href="https://image.tmdb.org"><link rel="stylesheet" href="assets/css/app.css">
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="CINEMAX inicio"><span class="brand-mark">C</span><span>CINE<span class="brand-accent">MAX</span><small>ENTERTAINMENT</small></span></a>
+    <nav class="main-nav"><a class="active" href="#inicio">Inicio</a><a href="#peliculas">Películas</a><a href="#series">Series</a><a href="#catalogo">Explorar</a></nav>
+    <div class="top-actions"><label class="searchbox"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar títulos..."></label><a class="profile-link" href="login.html" id="accountLink">Iniciar sesión</a><button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button></div>
+  </header>
+  <main id="inicio">
+    <section class="hero" id="hero"><div class="hero-backdrop" id="heroBackdrop"></div><div class="hero-shade"></div><div class="hero-content"><div class="eyebrow"><i></i> UNIVERSO CINEMAX <span id="heroTag">DESTACADO</span></div><h1 id="heroTitle">Historias que<br><em>te atrapan.</em></h1><p id="heroDescription">Descubre mundos extraordinarios, grandes estrenos y tus historias favoritas en un solo lugar.</p><div class="hero-meta" id="heroMeta"><span>4K ULTRA HD</span><span>•</span><span>EXPERIENCIA PREMIUM</span></div><div class="hero-buttons"><a class="btn btn-primary" id="heroPlay" href="#catalogo"><span>▶</span> Explorar ahora</a><a class="btn btn-glass" href="#catalogo">＋ Mi lista</a></div></div><div class="hero-index"><span>01</span><div></div><span> CINEMAX ORIGINAL EXPERIENCE</span></div></section>
+    <section class="quick-stats"><div><strong id="countMovies">—</strong><span>TÍTULOS DISPONIBLES</span></div><div><strong>4K</strong><span>CALIDAD CINEMATOGRÁFICA</span></div><div><strong>∞</strong><span>HISTORIAS POR DESCUBRIR</span></div></section>
+    <section class="content-section" id="peliculas"><div class="section-heading"><div><span class="section-kicker">SELECCIÓN CINEMAX</span><h2>En tendencia <b>ahora</b></h2><p>Lo que todos están descubriendo.</p></div><a href="#catalogo" class="see-all">Ver catálogo <span>↗</span></a></div><div class="poster-grid" id="trendingGrid"><div class="loading-card">Preparando tu cartelera...</div></div></section>
+    <section class="feature-strip"><div class="feature-copy"><span class="section-kicker">ENCUENTRA TU PRÓXIMA OBSESIÓN</span><h2>Un universo.<br><em>Infinitas historias.</em></h2><p>Explora nuestro catálogo y déjate sorprender por nuevas películas, series y mundos por descubrir.</p><a class="text-link" href="#catalogo">Descubrir catálogo <span>→</span></a></div><div class="feature-art"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="feature-core">C<span>M</span></div><div class="feature-caption">YOUR NEXT<br>FAVORITE STORY</div></div></section>
+    <section class="content-section" id="series"><div class="section-heading"><div><span class="section-kicker">PARA SEGUIR VIENDO</span><h2>Más para <b>descubrir</b></h2><p>Una selección para tu siguiente maratón.</p></div></div><div class="poster-grid" id="discoverGrid"><div class="loading-card">Cargando recomendaciones...</div></div></section>
+    <section class="content-section catalog-section" id="catalogo"><div class="section-heading"><div><span class="section-kicker">BIBLIOTECA COMPLETA</span><h2>Explora <b>CINEMAX</b></h2><p>Encuentra algo que valga la pena ver.</p></div><div class="filters"><button class="filter active" data-filter="all">Todo</button><button class="filter" data-filter="pelicula">Películas</button><button class="filter" data-filter="serie">Series</button><button class="filter" data-filter="anime">Anime</button><button class="filter" data-filter="favorites">♥ Mi lista</button></div></div><div class="poster-grid" id="catalogGrid"><div class="loading-card">Conectando con CINEMAX...</div></div><p class="empty-state" id="emptyState" hidden>No encontramos títulos con esa búsqueda.</p><p class="catalog-hint" id="catalogHint" aria-live="polite">Inicia sesión para guardar tus favoritos y tenerlos siempre a mano.</p></section>
+  </main>
+  <footer class="footer"><a class="brand footer-brand" href="/"><span class="brand-mark">C</span><span>CINE<span class="brand-accent">MAX</span><small>ENTERTAINMENT</small></span></a><p>El siguiente capítulo de tu entretenimiento comienza aquí.</p><div class="footer-links"><a href="login.html">Mi cuenta</a><a href="registro.html">Crear cuenta</a><a href="admin2.html">Administración</a></div><small>© <span id="year"></span> CINEMAX. Todos los derechos reservados.</small></footer>
+</body></html>

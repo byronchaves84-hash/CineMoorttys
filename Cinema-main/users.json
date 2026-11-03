@@ -1,0 +1,66 @@
+[
+    {
+        "id": "admin-001",
+        "username": "Byron",
+        "email": "admin@cinemax.com",
+        "role": "admin",
+        "createdAt": "2026-08-17T01:32:21.447388+00:00",
+        "password_hash": "pbkdf2_sha256$310000$+8EO3YwPlaZZ8tz+2k6yYQ==$mA7pFtmG1wxB2LuGvFYkT9zgMgvBA0bmEyb65k6wCys="
+    },
+    {
+        "id": "admin-002",
+        "username": "admin2",
+        "email": "admin2@cinemax.com",
+        "role": "admin",
+        "createdAt": "2026-08-19T00:00:00+00:00",
+        "password_hash": "pbkdf2_sha256$310000$S5EfXywe1CKtHQsYgmOfrw==$0gnB5O1VoOo4tPcG3ceBJFw7MnmiMID9pZVemoldKdw="
+    },
+    {
+        "id": "6d1a3384-8d97-4c61-9281-abc025d7dd6b",
+        "username": "car",
+        "email": "car@gmail.com",
+        "role": "user",
+        "createdAt": "2026-08-17T01:49:47.010129+00:00",
+        "password_hash": "pbkdf2_sha256$310000$wvPEuWJkeHKUJc4lyFKc1g==$iZDrXkiihBZAbyeDMEMaBxr3We2tezd9WFeseKerUR4="
+    },
+    {
+        "id": "9c30a533-0ea7-47cc-ad7c-05e21494cf80",
+        "username": "test",
+        "email": "test@gmail.com",
+        "password_hash": "pbkdf2_sha256$310000$4neQpDqHzyy5xMKGq6WP+A==$jdC6OtTevrynUX/10efWS2Kk3fx7l0HJQlDlTtdF+y8=",
+        "role": "user",
+        "createdAt": "2026-09-17T02:22:01.315839+00:00"
+    },
+    {
+        "id": "1cdcfd9b-f13b-4d1b-b241-fd5e30c47413",
+        "username": "Byron24",
+        "email": "byron24@gmail.com",
+        "password_hash": "pbkdf2_sha256$310000$lClzOjHZBl+pPbVHz4ob9A==$KK0BEIHEIHjZtJCk0DxnjHmwrgLbkh352R3cGZEoweo=",
+        "role": "user",
+        "createdAt": "2026-10-05T03:31:12.449195+00:00"
+    },
+    {
+        "id": "46645df1-8301-4d34-b880-4cb17ca89116",
+        "username": "Byron65",
+        "email": "byron12345@gmail.com",
+        "password_hash": "pbkdf2_sha256$310000$25MWC9pT5+o/b9EzdIbuHw==$C//uVbr8U1RvWyr3zz2pXzNP7vObyEjRGvQM9MiEVmg=",
+        "role": "user",
+        "createdAt": "2026-10-09T01:26:42.329461+00:00"
+    },
+    {
+        "id": "799ac0de-5995-45b8-89c0-58942a8868e4",
+        "username": "Josue",
+        "email": "josue@gmail.com",
+        "password_hash": "pbkdf2_sha256$310000$Q6vfkKHg7a53ZHajTfgRnw==$QC1k7qRfhYl8EZVDW5FqyjrrSfpil5V0a8cCrnsvTLw=",
+        "role": "user",
+        "createdAt": "2026-10-09T01:27:37.420527+00:00"
+    },
+    {
+        "id": "5afe4dc2-f320-40ce-ae5d-829ea284fdbd",
+        "username": "David",
+        "email": "david@gmail.com",
+        "password_hash": "pbkdf2_sha256$310000$XpU1Pv1gNvZABGRM58DlmA==$vrIR4lFyGTbjXMR9KsHDlpwIsMSNK5nJc9ZdqpBm5k4=",
+        "role": "user",
+        "createdAt": "2026-10-20T22:25:16.891668+00:00"
+    }
+]

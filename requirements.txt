@@ -1,0 +1,1 @@
+# CINEMAX usa únicamente la biblioteca estándar de Python.
